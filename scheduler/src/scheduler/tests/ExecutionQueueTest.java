@@ -1,8 +1,8 @@
-package sheduler.tests;
+package scheduler.tests;
 
 import org.junit.jupiter.api.Test;
-import sheduler.ExecutionQueue;
-import sheduler.Task;
+import scheduler.ExecutionQueue;
+import scheduler.Task;
 
 import java.util.ArrayList;
 import java.util.Collection;

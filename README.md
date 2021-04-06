@@ -1,1 +1,1 @@
-# simple-sheduler
+# simple-scheduler

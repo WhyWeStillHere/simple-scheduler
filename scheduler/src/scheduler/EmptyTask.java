@@ -1,6 +1,4 @@
-package sheduler;
-
-import sheduler.tests.TestTask;
+package scheduler;
 
 import java.util.ArrayList;
 import java.util.Collection;

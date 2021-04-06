@@ -1,8 +1,8 @@
-package sheduler.tests;
+package scheduler.tests;
 import org.junit.jupiter.api.Test;
-import sheduler.CyclicDependenciesChecker;
-import sheduler.EmptyTask;
-import sheduler.Task;
+import scheduler.CyclicDependenciesChecker;
+import scheduler.EmptyTask;
+import scheduler.Task;
 
 import java.util.ArrayList;
 import java.util.Arrays;

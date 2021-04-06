@@ -1,4 +1,4 @@
-package sheduler.tests;
+package scheduler.tests;
 
 public class SleepyTask extends TestTask {
   private final int sleepTime;

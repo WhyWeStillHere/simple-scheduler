@@ -1,4 +1,4 @@
-package sheduler.tests;
+package scheduler.tests;
 
 public class ErrorTask extends TestTask {
   @Override

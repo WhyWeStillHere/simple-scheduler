@@ -1,7 +1,7 @@
-package sheduler.tests;
+package scheduler.tests;
 
 import org.junit.jupiter.api.Test;
-import sheduler.*;
+import scheduler.*;
 
 import java.util.*;
 import java.util.stream.Collectors;
