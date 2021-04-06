@@ -46,6 +46,20 @@ public class ExecutionQueueTest {
   }
 
   @Test
+  void availableTask_multipleTimesAccesAfterFinish() {
+    ExecutionQueue executionQueue = new ExecutionQueue();
+    TestTask task = new TestTask();
+    executionQueue.Build(Collections.singleton(task));
+
+    executionQueue.availableTask().execute();
+    assertNull(executionQueue.availableTask());
+    assertNull(executionQueue.availableTask());
+    assertNull(executionQueue.availableTask());
+
+    checkCorrectness(Collections.singleton(task));
+  }
+
+  @Test
   void availableTask_bamboo() {
     ExecutionQueue executionQueue = new ExecutionQueue();
     List<TestTask> tasks = new ArrayList<>();

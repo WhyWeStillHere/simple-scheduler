@@ -52,6 +52,7 @@ public class ExecutionQueue {
     }
 
     if (task.equals(finalTask)) {
+      availableTasks.add(finalTask);
       return null;
     }
     return task;
